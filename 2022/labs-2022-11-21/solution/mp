@@ -1,0 +1,78 @@
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/bin/false
+daemon:x:2:2:daemon:/sbin:/bin/false
+adm:x:3:4:adm:/var/adm:/bin/false
+lp:x:4:7:lp:/var/spool/lpd:/bin/false
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:Mail program user:/var/spool/mail:/sbin/nologin
+news:x:9:13:news:/usr/lib/news:/bin/false
+uucp:x:10:14:uucp:/var/spool/uucppublic:/bin/false
+operator:x:11:0:operator:/root:/bin/bash
+man:x:13:15:System user; man:/dev/null:/sbin/nologin
+postmaster:x:14:12:Postmaster user:/var/spool/mail:/sbin/nologin
+xdm:x:32:32:XDM:/var/xdm:/bin/bash
+smmsp:x:209:209:smmsp:/var/spool/mqueue:/bin/false
+portage:x:250:250:System user; portage:/var/lib/portage/home:/sbin/nologin
+nobody:x:65534:65534:nobody:/:/bin/false
+sshd:x:22:22:User for ssh:/var/empty:/sbin/nologin
+messagebus:x:101:198:System user; messagebus:/dev/null:/sbin/nologin
+mysql:x:60:60:MySQL program user:/dev/null:/sbin/nologin
+ldap:x:439:439:added by portage for openldap:/usr/lib64/openldap:/sbin/nologin
+apache:x:81:81:System user; apache:/var/www:/sbin/nologin
+avahi:x:102:195:user for avahi:/dev/null:/sbin/nologin
+pulse:x:103:103:added by portage for pulseaudio:/var/run/pulse:/sbin/nologin
+cron:x:16:16:A user for sys-process/cronbase:/var/spool/cron:/sbin/nologin
+dictd:x:104:998:uid for app-text/dictd:/dev/null:/sbin/nologin
+tcpdump:x:105:996:added by portage for tcpdump:/dev/null:/sbin/nologin
+fetchmail:x:106:995:User for net-mail/fetchmail:/var/lib/fetchmail:/sbin/nologin
+distcc:x:240:240:User used to run distcc daemon:/dev/null:/sbin/nologin
+hsqldb:x:107:993:User for hsqldb:/dev/null:/sbin/nologin
+sockd:x:108:214:A user for net-proxy/dante:/dev/null:/sbin/nologin
+colord:x:109:989:User for running the colord service:/var/lib/colord:/sbin/nologin
+games:x:36:35:added by portage for emacs-common-gentoo:/usr/games:/bin/bash
+gpsd:x:110:20:user for gpsd:/dev/null:/sbin/nologin
+saned:x:111:997:User for media-gfx/sane-backends:/dev/null:/sbin/nologin
+polkitd:x:112:988:System user; polkitd:/var/lib/polkit-1:/sbin/nologin
+rplayd:x:113:987:A user for media-sound/rplay; user account removed @ 2022-10-14:/dev/null:/sbin/nologin
+kdm:x:114:986:added by portage for kdm:/var/lib/kdm:/sbin/nologin
+sabayon-admin:x:115:985:added by portage for sabayon:/var/lib/sabayon:/sbin/nologin
+lighttpd:x:116:983:A user for lighttpd:/dev/null:/sbin/nologin
+tomcat:x:265:265:User for Apache Tomcat:/dev/null:/sbin/nologin
+timidity:x:117:65534:A user for media-sound/timidity++:/var/lib/timidity:/sbin/nologin
+sage:x:118:982:added by portage for sage-notebook:/var/lib/sage:/bin/bash
+at:x:25:25:user for at daemon:/var/spool/at/atjobs:/sbin/nologin
+stunnel:x:119:981:user for stunnel:/dev/null:/sbin/nologin
+nx:x:120:120:added by portage for nxnode:/var/lib/nxserver/home:/usr/bin/nxserver
+monotone:x:121:980:added by portage for monotone:/var/lib/monotone:/sbin/nologin
+aspnet:x:122:979:User for the www-servers/xsp dotnet server:/dev/null:/sbin/nologin
+firebird:x:450:450:added by portage for firebird:/usr/lib64/firebird:/bin/bash
+gkrellmd:x:123:977:user for gkrellm daemon:/dev/null:/sbin/nologin
+festival:x:124:18:added by portage for festival:/dev/null:/sbin/nologin
+mon:x:799:799:monitoring vytizeni:/home/mon:/bin/bash
+cacad:x:9001:110:Cisco network academy user:/afs/ms/u/c/cacad:/bin/bash
+geoclue:x:125:976:User for running the GeoClue D-Bus geolocation service:/var/lib/geoclue:/sbin/nologin
+mongodb:x:126:974:MongoDB program user:/var/lib/mongodb:/sbin/nologin
+x2gouser:x:127:972:User for net-misc/x2goserver:/var/lib/x2go:/sbin/nologin
+x2goprint:x:128:971:User for net-misc/x2goserver:/var/spool/x2goprint:/sbin/nologin
+collectd:x:129:970:added by portage for collectd:/var/lib/collectd:/sbin/nologin
+ceph:x:130:967:User for ceph:/var/lib/ceph:/sbin/nologin
+postgres:x:70:70:PostgreSQL program user:/var/lib/postgresql:/bin/sh
+etcd:x:131:966:User for etcd:/var/lib/etcd:/sbin/nologin
+sddm:x:132:965:added by portage for sddm:/var/lib/sddm:/sbin/nologin
+haproxy:x:133:964:System user; haproxy:/dev/null:/sbin/nologin
+tor:x:134:963:user for tor daemon:/dev/null:/sbin/nologin
+syncthing:x:135:962:User for the system-wide net-p2p/syncthing server:/var/lib/syncthing:/sbin/nologin
+strelaysrv:x:136:961:User for the Syncthing relay server:/var/lib/strelaysrv:/sbin/nologin
+spamd:x:137:137:User for the SpamAssassin daemon:/var/lib/spamd:/sbin/nologin
+icecast:x:138:131:A user for net-misc/icecast:/dev/null:/sbin/nologin
+stdiscosrv:x:139:960:User for the Syncthing discovery server:/var/lib/stdiscosrv:/sbin/nologin
+epmd:x:335:335:User for Erlang Portmapper Daemon:/dev/null:/sbin/nologin
+oidentd:x:493:493:System user; oidentd:/dev/null:/sbin/nologin
+pcap:x:377:377:User for capturing network traffic:/dev/null:/sbin/nologin
+nvpd:x:458:27:User for nvidia-persistenced:/dev/null:/sbin/nologin
+sndiod:x:461:18:Daemon user for sndio:/dev/null:/sbin/nologin
+brltty:x:506:506:user for brltty:/var/lib/brltty:/sbin/nologin
+libreoffice:x:512:512:A user for the headless LibreOffice server:/var/lib/libreoffice:/sbin/nologin
+qemu:x:77:991:System user; qemu:/dev/null:/sbin/nologin
